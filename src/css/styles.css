@@ -152,6 +152,44 @@ main {
   display: none;
 }
 
+.repo-info {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.repo-badge{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px ;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #1e1e1e;
+  color: #FFFFFF;
+}
+
+.repo-badge.forks {
+  background-color: #6f42c1;
+}
+
+.repo-badge.stars {
+  background-color: rgb(109, 43, 126);
+  color: #000;
+}
+
+.repo-badge.watchers {
+  background-color: #3498db;
+}
+
+.repo-badge.language {
+  background-color: #2ecc71;
+}
+
+
+
 @media (max-width: 1280px) {
   .container {
     flex-direction: column;
